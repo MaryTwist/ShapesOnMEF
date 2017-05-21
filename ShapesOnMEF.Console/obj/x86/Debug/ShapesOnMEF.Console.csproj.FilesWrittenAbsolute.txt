@@ -1,0 +1,10 @@
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.Console.exe.mdb
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.Console.exe
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/obj/x86/Debug/ShapesOnMEF.Console.exe
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/obj/x86/Debug/ShapesOnMEF.Console.exe.mdb
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/InConsoleExperiments.Common.dll
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.Contract.dll
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.Contract.dll.mdb
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.ShapeComposition.dll
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Console/bin/Debug/ShapesOnMEF.ShapeComposition.dll.mdb

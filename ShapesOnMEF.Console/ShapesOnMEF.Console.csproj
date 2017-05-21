@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ShapesOnMEF.Console</RootNamespace>
+    <AssemblyName>ShapesOnMEF.Console</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>../BuildScrips/CopyFromComponents.sh "${SolutionDir}/Components" "${TargetDir}/Components"</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="InConsoleExperiments.Common">
+      <HintPath>..\..\InConsoleExperiments.LambdaRecursion\InConsoleExperiments.Common\bin\Debug\InConsoleExperiments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShapesOnMEF.Contract\ShapesOnMEF.Contract.csproj">
+      <Project>{EA80ABCB-8C78-4A00-B1AF-D303C8231968}</Project>
+      <Name>ShapesOnMEF.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShapesOnMEF.ShapeComposition\ShapesOnMEF.ShapeComposition.csproj">
+      <Project>{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}</Project>
+      <Name>ShapesOnMEF.ShapeComposition</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

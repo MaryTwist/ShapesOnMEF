@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Contract", "ShapesOnMEF.Contract\ShapesOnMEF.Contract.csproj", "{EA80ABCB-8C78-4A00-B1AF-D303C8231968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.ShapeComposition", "ShapesOnMEF.ShapeComposition\ShapesOnMEF.ShapeComposition.csproj", "{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Console", "ShapesOnMEF.Console\ShapesOnMEF.Console.csproj", "{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Point", "ShapesOnMEF.Point\ShapesOnMEF.Point.csproj", "{BAF9A733-54A7-4E13-A611-34EDB488CE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Rect", "ShapesOnMEF.Rect\ShapesOnMEF.Rect.csproj", "{BF318890-DBBE-41FF-91A2-9109C6C2A4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Circle", "ShapesOnMEF.Circle\ShapesOnMEF.Circle.csproj", "{1A3DB2D2-8864-4171-85DC-3EAFF245C8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesOnMEF.Line", "ShapesOnMEF.Line\ShapesOnMEF.Line.csproj", "{B061E1AE-D88A-48A8-9D11-CC9FC976CA40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA80ABCB-8C78-4A00-B1AF-D303C8231968}.Debug|x86.ActiveCfg = Debug|x86
+		{EA80ABCB-8C78-4A00-B1AF-D303C8231968}.Debug|x86.Build.0 = Debug|x86
+		{EA80ABCB-8C78-4A00-B1AF-D303C8231968}.Release|x86.ActiveCfg = Release|x86
+		{EA80ABCB-8C78-4A00-B1AF-D303C8231968}.Release|x86.Build.0 = Release|x86
+		{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E6F174A-52EB-4F7F-A0F5-3568ABE6332F}.Release|x86.Build.0 = Release|Any CPU
+		{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}.Debug|x86.ActiveCfg = Debug|x86
+		{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}.Debug|x86.Build.0 = Debug|x86
+		{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}.Release|x86.ActiveCfg = Release|x86
+		{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}.Release|x86.Build.0 = Release|x86
+		{BAF9A733-54A7-4E13-A611-34EDB488CE5D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAF9A733-54A7-4E13-A611-34EDB488CE5D}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAF9A733-54A7-4E13-A611-34EDB488CE5D}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAF9A733-54A7-4E13-A611-34EDB488CE5D}.Release|x86.Build.0 = Release|Any CPU
+		{BF318890-DBBE-41FF-91A2-9109C6C2A4C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF318890-DBBE-41FF-91A2-9109C6C2A4C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF318890-DBBE-41FF-91A2-9109C6C2A4C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF318890-DBBE-41FF-91A2-9109C6C2A4C9}.Release|x86.Build.0 = Release|Any CPU
+		{1A3DB2D2-8864-4171-85DC-3EAFF245C8C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A3DB2D2-8864-4171-85DC-3EAFF245C8C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A3DB2D2-8864-4171-85DC-3EAFF245C8C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A3DB2D2-8864-4171-85DC-3EAFF245C8C7}.Release|x86.Build.0 = Release|Any CPU
+		{B061E1AE-D88A-48A8-9D11-CC9FC976CA40}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B061E1AE-D88A-48A8-9D11-CC9FC976CA40}.Debug|x86.Build.0 = Debug|Any CPU
+		{B061E1AE-D88A-48A8-9D11-CC9FC976CA40}.Release|x86.ActiveCfg = Release|Any CPU
+		{B061E1AE-D88A-48A8-9D11-CC9FC976CA40}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

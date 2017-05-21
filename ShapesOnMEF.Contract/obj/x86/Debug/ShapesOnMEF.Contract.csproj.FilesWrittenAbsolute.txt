@@ -1,0 +1,5 @@
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Contract/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Contract/bin/Debug/ShapesOnMEF.Contract.dll.mdb
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Contract/bin/Debug/ShapesOnMEF.Contract.dll
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Contract/obj/x86/Debug/ShapesOnMEF.Contract.dll
+/root/prj/csharp/ShapesOnMEF/ShapesOnMEF.Contract/obj/x86/Debug/ShapesOnMEF.Contract.dll.mdb

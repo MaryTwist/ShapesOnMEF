@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{45C56832-9AD1-4BDF-A879-FBC2FC6C72E3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShapesOnMEF.Contract/ShapeBase.cs">
+    <Files>
+      <File FileName="ShapesOnMEF.Console/Program.cs" Line="26" Column="7" />
+      <File FileName="ShapesOnMEF.Rect/RectShape.cs" Line="16" Column="10" />
+      <File FileName="ShapesOnMEF.ShapeComposition/ShapeComposition.cs" Line="14" Column="3" />
+      <File FileName="ShapesOnMEF.Contract/ShapeBase.cs" Line="25" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShapesOnMEF" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ShapesOnMEF.Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ShapesOnMEF.Contract PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
